@@ -4,7 +4,7 @@
    "port": 5432,
    "username": "postgres",
    "password": "0000",
-   "database": "jwtdb",
+   "database": "jwt-auth-example",
    "synchronize": true,
    "logging": false,
    "entities": [

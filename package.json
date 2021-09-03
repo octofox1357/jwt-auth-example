@@ -13,7 +13,7 @@
    },
    "dependencies": {
       "@types/jsonwebtoken": "8.5.5",
-      "apollo-server-express": "3.3.0",
+      "apollo-server-express": "^3.3.0",
       "bcryptjs": "2.4.3",
       "dotenv": "10.0.0",
       "express": "4.17.1",
@@ -25,6 +25,6 @@
       "typeorm": "0.2.37"
    },
    "scripts": {
-      "start": "nodemon --exec ts-node src/index.ts"
+      "start": "nodemon --exec ts-node server/src/index.ts"
    }
 }
